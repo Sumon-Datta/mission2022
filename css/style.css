@@ -12,13 +12,13 @@
 }
 
 html{
-    overflow-x: hidden;
+   
     scroll-behavior: smooth;
     scroll-padding-top: 7rem;
 }
 
 section{
-    padding: 3rem 11%;
+    padding: 2rem 11%;
 }
 
 .header{
@@ -27,11 +27,11 @@ section{
     display: flex;
 }
 /* header left */
-.header .header-left{
+.header-left{
     width: 40%;
 }
 
-.header .header-left h1{
+.header-left h1{
     color: #000000c5;
     margin-top:4.5rem ;
     font-size: 3.5rem;
@@ -43,11 +43,11 @@ section{
     
 }
 
-.header .header-left span{
+span{
     color: #F69E22;
 }
 
-.header .header-left p{
+.header-left p{
     margin:2.8rem 0;
     color:#000000c5 ;
     font-weight: 300;
@@ -73,11 +73,11 @@ section{
 
 /* header right  */
 
-.header .header-right{
+.header-right{
     width: 40%;
 }
 
-.header .header-right img{
+.header-right img{
     width: 81%;
     float: right;
 }
@@ -86,6 +86,153 @@ section{
 
 /* mission section start */
 
+.mission h1{
+    color: #1e0b3b;
+    text-align: center;
+    font-size: 2.6rem;
+    text-transform: none;
+    
+}
+
+.mission .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1.5rem;
+    margin: 3rem 0;
+}
+
+.mission .container .miss{
+    background: #aef0dd;
+    padding: 2rem 1rem;
+    border-radius: .8rem;
+}
 
 
+.mission .container .miss img{
+    width: 50%;
+}
+
+.mission .container .miss h3{
+    font-size: 1.4rem;
+    margin: .4rem 0;
+}
+
+.mission .container .miss p{
+    font-weight:200 ;
+    color: rgba(0,0,0,.8);
+    margin-top: .3rem;
+}
+
+/* vission part */
+
+.mission .container .viss{
+    padding: 2rem 1rem;
+    background: #f3cbef;
+   
+    border-radius: .8rem;
+}
+
+.mission .container .viss img{
+    width: 50%;
+}
+
+.mission .container .viss h3{
+    font-size: 1.4rem;
+    margin: .4rem 0;
+}
+
+.mission .container .viss p{
+    font-weight:200 ;
+    color: rgba(0,0,0,.8);
+    margin-top: .3rem;
+}
+
+/* goal part */
+
+.mission .container .goal{
+    padding: 2rem 1rem;
+    background: #fd9bf3;
+    
+    border-radius: .8rem;
+}
+
+.mission .container .goal img{
+    width: 50%;
+}
+
+.mission .container .goal h3{
+    font-size: 1.4rem;
+    margin: .4rem 0;
+}
+
+.mission .container .goal p{
+    font-weight:200 ;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: .3rem;
+    font-size: 1rem;
+
+}
 /* mission section end */
+
+/*  */
+
+.document{
+   gap: 4.5rem;
+    display: flex;
+}
+
+
+
+
+/* header right  */
+
+.document-left{
+    width: 40%;
+}
+
+.document-left img{
+    width: 100%;
+    float: right;
+}
+
+/* document right */
+
+.document-right{
+    float: right;
+    width: 65%;
+    
+}
+
+.document-right h1{
+    color: #000000c5;
+    margin-top:2rem ;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding-left: .3rem;
+    padding-bottom: -5rem;
+    
+}
+
+
+.document-right p{
+    margin-top:2rem;
+    margin-bottom: 3rem;
+    color:#000000c5 ;
+    font-weight: 500;
+}
+
+.btn{
+    font-size: 1rem;
+    color: #fff;
+    background:linear-gradient(to right, rgb(236, 10, 142), rgb(230, 9, 75));
+    padding: .7rem 2rem;
+    border-radius: .3rem;
+    margin-top: 4rem;
+}
+
+.btn:hover{
+    background:linear-gradient(to right, rgb(148, 5, 88), rgb(149, 5, 48));
+}
+
+
+
