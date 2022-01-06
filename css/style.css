@@ -22,7 +22,7 @@ section{
 }
 
 .header{
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     display: flex;
 }
@@ -39,8 +39,7 @@ section{
     border-image-slice: 1;
     border-left: solid .2rem;
     border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
-    padding-left: .3rem;
-    padding-bottom: -5rem;
+    padding-left: .4rem;
     text-transform: none;
     font-weight: bold;
     
@@ -56,8 +55,10 @@ section{
 
 .header-left p{
     margin:2.8rem 0;
-    color:#000000c5 ;
-    font-weight: 300;
+    color:#0f0f0fc5 ;
+    font-weight: 500;
+    font-size: 1.1rem;
+    
 }
 
 .header .header-left .scroll{
